@@ -9,7 +9,7 @@ NSC
 	=> Format of the fault log writing remains the same
 	
 	=> By default alarms are enabled on NSC device 
-	
+	vbdvbdbdbdfgdgf
 	=> Shld not apply alarm filtering on the device side. 
 	Alarms are required in mgmt system while investigation
 	
