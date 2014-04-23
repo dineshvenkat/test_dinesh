@@ -1,0 +1,38 @@
+NSC 
+=== 
+	=> filtered alarm mechanism before writing alarms 
+	   to fault logs (netcool)
+		Only write the alarms NOC/Sprint want to see
+		
+		Based on alarm severity and MACIDs 
+		
+	=> Format of the fault log writing remains the same
+	
+	=> By default alarms are enabled on NSC device 
+	
+	=> Shld not apply alarm filtering on the device side. 
+	Alarms are required in mgmt system while investigation
+	
+	=> Alarm Filtering - Critical alarms  for specific macids only
+	   
+	=> Getting MACID's - While importing UEDF file using SKU
+					- From ANP GUI , enable monitoring 
+
+	=> DMS alarms not passed to filter.++
+	
+	=> different files for DMS alarm and device alarm
+
+	PDSN going down 
+
+Max number of macIds supported 
+Supported fields to write to fault log file 					
+support for co-relation enhancement 
+support for alarm reporting 
+
+Enable/disable per alarm based /global - Global based 
+
+Other TR-157 functionality
+	Expedited alarm  support 
+	
+	Support to change the reporting type 
+	View and purge options 
